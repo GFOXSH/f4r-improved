@@ -1,0 +1,219 @@
+{
+	"camera" : 
+	{
+		"center" : "0.00000 0.00000 -1.00000",
+		"eye" : "0.00000 0.00000 0.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.30000 0.30000 0.30000",
+		"bloom" : true,
+		"bloomhdrfeather" : 0.1,
+		"bloomhdriterations" : 8,
+		"bloomhdrscatter" : 1.619,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 1.74,
+		"bloomthreshold" : 0.58999997,
+		"camerafade" : true,
+		"cameraparallax" : true,
+		"cameraparallaxamount" : 0.11,
+		"cameraparallaxdelay" : 0.30000001,
+		"cameraparallaxmouseinfluence" : 0.33000001,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.1,
+		"camerashakeroughness" : 0.0,
+		"camerashakespeed" : 1.6799999,
+		"clearcolor" : "0.70000 0.70000 0.70000",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"hdr" : false,
+		"nearz" : 0.0099999998,
+		"orthogonalprojection" : 
+		{
+			"height" : 1080,
+			"width" : 1920
+		},
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 13,
+			"image" : "models/fallout-4-replejser-modeli-radio.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "fallout-4-replejser-modeli-radio",
+			"origin" : "968.15161 540.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.20897 1.18324 1.02891",
+			"size" : "1920.00000 1080.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 43,
+					"name" : "Pulse",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"AUDIOPROCESSING" : 3
+							},
+							"constantshadervalues" : 
+							{
+								"audioamount" : 0.5,
+								"audiobounds" : "1 0.5",
+								"audioexponent" : 1.0,
+								"frequencymax" : 1.0,
+								"frequencymin" : 0.0,
+								"tinthigh" : "1 1 1",
+								"tintlow" : "1 1 1"
+							},
+							"id" : 44,
+							"textures" : [ null, null, "mask" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 40,
+			"image" : "models/util/composelayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Light",
+			"origin" : "1250.14844 447.38147 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "290.00000 195.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 18,
+			"instanceoverride" : 
+			{
+				"id" : 19,
+				"rate" : 0.22
+			},
+			"locktransforms" : false,
+			"name" : "Ash",
+			"origin" : "940.91846 507.20471 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/ash.json",
+			"scale" : "6.66644 6.66644 6.66644",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 27,
+			"instanceoverride" : 
+			{
+				"id" : 28,
+				"rate" : 0.30000001
+			},
+			"locktransforms" : false,
+			"name" : "Dust motes",
+			"origin" : "1004.74585 536.37830 0.00000",
+			"parallaxDepth" : "-0.39000 -0.39000",
+			"particle" : "particles/presets/dust_motes_0.json",
+			"scale" : "4.17697 4.17697 4.17697",
+			"visible" : true
+		},
+		{
+			"alpha" : 0.38,
+			"anchor" : "none",
+			"angles" : "0.00000 0.00000 0.00000",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 0.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"font" : "fonts/CursedTimerUlil-Aznm.ttf",
+			"horizontalalign" : "center",
+			"id" : 39,
+			"ledsource" : false,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"locktransforms" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "Clock",
+			"opaquebackground" : false,
+			"origin" : "1248.96985 441.77881 0.00000",
+			"padding" : 32,
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"pointsize" : 26.0,
+			"scale" : "0.37947 0.37947 0.37947",
+			"size" : "335.00000 118.00000",
+			"solid" : true,
+			"text" : 
+			{
+				"script" : "'use strict';\n\nexport var scriptProperties = createScriptProperties()\n\t// Whether you want a 24h or 12h style format\n\t.addCheckbox({\n\t\tname: 'use24hFormat',\n\t\tlabel: 'ui_editor_properties_use_24h_format',\n\t\tvalue: true\n\t})\n\t// Whether you want to see the seconds or not\n\t.addCheckbox({\n\t\tname: 'showSeconds',\n\t\tlabel: 'ui_editor_properties_show_seconds',\n\t\tvalue: false\n\t})\n\t// This will be used to separate each element\n\t.addText({\n\t\tname: 'delimiter',\n\t\tlabel: 'ui_editor_properties_delimiter',\n\t\tvalue: ':'\n\t})\n\t.finish();\n\n/**\n * @param {String} value (for property 'text')\n */\nexport function update(value) {\n\tlet time = new Date();\n\tvar hours = time.getHours();\n\tif (!scriptProperties.use24hFormat) {\n\t\thours %= 12;\n\t\tif (hours == 0) {\n\t\t\thours = 12;\n\t\t}\n\t}\n\thours = (\"00\" + hours).slice(-2);\n\tlet minutes = (\"00\" + time.getMinutes()).slice(-2);\n\tif (time.getSeconds() % 2 == 0) {\n\t\tvalue = hours + scriptProperties.delimiter + minutes;\n\t} else {\n\t\tvalue = hours + ' ' + minutes;\n\t}\n\tif (scriptProperties.showSeconds) {\n\t\tlet seconds = (\"00\" + time.getSeconds()).slice(-2);\n\tif (time.getSeconds() % 2 == 0) {\n\t\tvalue += scriptProperties.delimiter + seconds;\n\t} else {\n\t\tvalue += ' ' + seconds;\n\t}\n\t}\n\treturn value;\n}\n",
+				"scriptproperties" : 
+				{
+					"delimiter" : ":",
+					"showSeconds" : false,
+					"use24hFormat" : true
+				},
+				"value" : "88:88"
+			},
+			"verticalalign" : "center",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 36,
+			"locktransforms" : false,
+			"maxtime" : 5.0,
+			"mintime" : 1.0,
+			"muteineditor" : false,
+			"name" : "The Ink Spots - I Don't Want to Set the World on Fire.mp3",
+			"origin" : "0.00000 0.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"playbackmode" : "random",
+			"scale" : "1.00000 1.00000 1.00000",
+			"sound" : 
+			[
+				"sounds/The Ink Spots - I Don't Want to Set the World on Fire.mp3",
+				"sounds/Bob Crosby - Happy Times.mp3",
+				"sounds/The Ink Spots - Maybe.mp3",
+				"sounds/Billie Holiday - Blue Moon.mp3",
+				"sounds/Betty Hutton - He's a Demon - He's a Devil - He's a Doll.mp3"
+			],
+			"startsilent" : false,
+			"volume" : 0.5
+		}
+	],
+	"version" : 1
+}
