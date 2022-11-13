@@ -9,11 +9,12 @@
 				"order" : 0,
 				"text" : "ui_browse_properties_scheme_color",
 				"type" : "color",
-				"value" : "0 0 0"
+				"value" : "0.48627450980392156 0.39215686274509803 0.3254901960784314"
 			}
 		},
 		"supportsaudioprocessing" : true
 	},
+	"preview" : "preview.gif",
 	"title" : "Fallout 4 Radio Improved v2.0",
 	"type" : "scene",
 	"version" : 0

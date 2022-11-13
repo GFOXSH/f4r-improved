@@ -312,6 +312,56 @@
 			],
 			"startsilent" : false,
 			"volume" : 0.5
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 57,
+			"image" : "models/util/composelayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Pause",
+			"origin" : "980.79102 298.86737 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "100.00000 100.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"script" : "'use strict';\n\nconst SOUND_LAYER_NAME = 'Music';\nconst IMAGE_LAYER_NAME = 'Light';\n\n/**\n * @param {CursorEvent} event\n */\nexport function cursorClick(event) {\n\tvar isPlaying = thisScene.getLayer(SOUND_LAYER_NAME).isPlaying();\n\tif (isPlaying) {\n\t\tthisScene.getLayer(SOUND_LAYER_NAME).pause();\n\t\tthisScene.getLayer(IMAGE_LAYER_NAME).visible = false;\n\t} else {\n\t\tthisScene.getLayer(SOUND_LAYER_NAME).play();\n\t\tthisScene.getLayer(IMAGE_LAYER_NAME).visible = true;\n\t}\n}",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 59,
+			"image" : "models/util/composelayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Change",
+			"origin" : "1518.05615 295.93982 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "100.00000 100.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"script" : "'use strict';\n\nconst SOUND_LAYER_NAME = 'Music';\n\n/**\n * @param {CursorEvent} event\n */\nexport function cursorClick(event) {\n\tvar isPlaying = thisScene.getLayer(SOUND_LAYER_NAME).isPlaying();\n\tif (isPlaying) {\n\t\tthisScene.getLayer(SOUND_LAYER_NAME).stop();\n\t\tthisScene.getLayer(SOUND_LAYER_NAME).play();\n\t}\n}",
+				"value" : true
+			}
 		}
 	],
 	"version" : 1
