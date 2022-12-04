@@ -112,7 +112,7 @@
 			"scale" : "1.00000 1.00000 1.00000",
 			"size" : "290.00000 195.00000",
 			"solid" : true,
-			"visible" : true
+			"visible" : false
 		},
 		{
 			"angles" : "0.00000 0.00000 0.00000",
@@ -310,7 +310,7 @@
 				"sounds/World of Tanks - Siegfried Line.mp3",
 				"sounds/World of Tanks - Studzianki featuring Polish band Zywiolak.mp3"
 			],
-			"startsilent" : false,
+			"startsilent" : true,
 			"volume" : 0.5
 		},
 		{
